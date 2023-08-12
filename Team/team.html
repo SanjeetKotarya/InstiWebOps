@@ -16,7 +16,6 @@
     color: black;
     text-align: left;
     background-color: white;
-    font-size: 16px;
     -webkit-perspective: 50em;
     perspective: 50em;
     text-align: center;
@@ -138,12 +137,19 @@ color: white;
   .team-title p{
     font-size: 18px;
   }
-
+  figure.snap figcaption p{
+    font-size: 16px;
+  }
 
   @media screen and (max-width: 700px) {
-    figure.snap h3 {
-    font-size:15px;
+    figure.snap figcaption p{
+    font-size: 12px;
   }
+
+    figure.snap h3 {
+      font-size: 15px;
+  }
+
     .team {
       grid-template-columns: repeat(2, 1fr);
       grid-column-gap: 10px;
@@ -157,7 +163,7 @@ color: white;
     font-size: 30px;
   }
   .team-title p{
-    font-size: 16px;
+    font-size: 14px;
   }
   }
 </style>
