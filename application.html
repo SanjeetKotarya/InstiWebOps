@@ -1,77 +1,88 @@
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap" rel="stylesheet" />
-<link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-    html,
-    body {
-        overflow: hidden;
-    }
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+  
+  
+  <style>
+      html,
+      body {
+          overflow: hidden;
+      }
+  
+      body {
+          margin: 0;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+      }
+  
+      #container {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+      }
+  
+      .a-title {
+          position: absolute;
+          pointer-events: none;
+          letter-spacing: 1.125px;
+          margin: 0 auto;
+          bottom: 20%;
+          text-align: center;
+          font-size: 18px;
+          font-weight: 900;
+          color: white;
+          mix-blend-mode: difference;
+          cursor: pointer;
+          font-family: Josefin Sans;
+      }
+  
+      .a-second-title {
+          position: absolute;
+          font-family: Orbitron;
+          pointer-events: none;
+          -webkit-text-stroke: 1px white;
+          letter-spacing: 1.125px;
+          margin: 0 auto;
+          text-align: center;
+          font-size: 80px;
+          font-weight: 900;
+          mix-blend-mode: color-dodge;
+      }
+  
+      canvas {
+          width: 100%;
+          height: 100%;
+      }
+  </style>
+  
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
 
-    body {
-        margin: 0;
-        position: absolute;
-        width: 100%;
-        height: 100%;
-    }
-
-    #container {
-        margin: 0;
-        padding: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-    }
-
-    .a-title {
-        position: absolute;
-        pointer-events: none;
-        letter-spacing: 1.125px;
-        margin: 0 auto;
-        bottom: 20%;
-        text-align: center;
-        font-size: 18px;
-        font-weight: 900;
-        color: white;
-        mix-blend-mode: difference;
-        cursor: pointer;
-        font-family: Josefin Sans;
-    }
-
-    .a-second-title {
-        position: absolute;
-        font-family: Orbitron;
-        pointer-events: none;
-        -webkit-text-stroke: 1px white;
-        letter-spacing: 1.125px;
-        margin: 0 auto;
-        text-align: center;
-        font-size: 80px;
-        font-weight: 900;
-        mix-blend-mode: color-dodge;
-    }
-
-    canvas {
-        width: 100%;
-        height: 100%;
-    }
-</style>
-
-
+<body>
+    <script id="navbar" src="nav.js"></script>
 
 <section id='container'>
     
     <h2 class='a-second-title'>COMING SOON</h2>
-    <h1 class="a-title">Sorry! we are not currently recruiting.</h1>
+    <h1 class="a-title">Sorry! you have to go back.</h1>
     <canvas></canvas>
 </section>
-
-
 
 <script>
     'use strict';
@@ -750,3 +761,5 @@
                     pointers[j].down = false;
     });
 </script>
+</body>
+</html>
