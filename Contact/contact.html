@@ -1,0 +1,273 @@
+
+<style>
+  .main {
+    width: 70%;
+    margin: 80px auto 20px;
+    font-family: Poppins;
+    position: relative;
+  }
+
+  hgroup {
+    display: flex;
+
+  }
+
+  .payment {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .section1 {
+    width: 50%;
+    text-align: center;
+    background: radial-gradient(52.17% 111.82% at 10.66% 8.39%, #F5F5F5 0%, #E8E8E8 100%);
+    
+  }
+
+  .section1 h3 {
+    font-weight: 600;
+    color: #4D16BE;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 20px 0 25px;
+    border-bottom: 1px solid gray;
+  }
+
+
+  .section2 {
+    width: 50%;
+    background-color: #0E161B;
+    text-align: center;
+    position: relative;
+  }
+
+  .section2>h3 {
+    color: #CFD7DF;
+    font-weight: 600;
+    font-size: 1em;
+    padding: 20px 0 25px;
+    border-bottom: 1px solid #344651;
+  }
+
+  .description_s2_container {
+    width: 85%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .description_s2 {
+    position: relative;
+    color: #A5B2C0;
+    font-size: 0.95em;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 1.8em;
+  }
+
+  .section2 table {
+    margin: 20px auto;
+    margin-bottom: 30px;
+    color: #fff;
+    border-collapse: collapse;
+  }
+
+  .section2 td {
+    padding: 10px;
+    border: 1px solid #2cbe161e;
+    font-size: 0.9em;
+  }
+  .section2 td:hover {
+background-color:#4e16be15 ;
+  }
+  .main h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Josefin Sans;
+  }
+
+
+  @media (max-width: 800px) {
+    .description_s2_container {
+    width: 98%;
+  }
+    .main {
+    width: 100%;
+  }
+    .payment {
+      width: 100%;
+    }
+
+    .section1 {
+      width: 100%;
+      margin: 0 auto;
+      background: white;
+    }
+
+    .section2 {
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    .contact_sales {
+      border-bottom-left-radius: inherit;
+    }
+
+    .section2 td {
+      padding: 10px;
+      font-size: 0.8em;
+    }
+    .main h1 {
+    font-size: 30px;
+  }
+
+  }
+
+
+  #contactForm {
+    width: 100%;
+    font-family: Poppins;
+    position: relative;
+    display: block;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    padding: 25px 30px;
+  }
+
+  #contactForm label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  #contactForm input[type="text"],
+  #contactForm input[type="email"],
+  #contactForm textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    font-size: 14px;
+    background: #E8E8E8;
+    font-family: Poppins;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(77, 77, 77, 0.3), inset 5px 5px 20px rgba(0, 0, 0, 0.09), inset -5px -5px 20px #FFFFFF;
+    transition-property: background, box-shadow, border;
+    transition-duration: 0.2s;
+  }
+
+
+  #contactForm textarea:focus {
+    outline: none;
+      background: #FFFFFF;
+  }
+
+  #contactForm input:focus {
+    outline: none;
+      background: #FFFFFF;
+  }
+  #contactForm textarea:focus{
+    background: #FFFFFF;
+  }
+  #contactForm textarea:hover {
+    outline: none;
+      background: #FFFFFF;
+  }
+
+  #contactForm input:hover {
+    outline: none;
+      background: #FFFFFF;
+  }
+  #contactForm textarea:hover{
+    background: #FFFFFF;
+  }
+
+  #contactForm textarea {
+    resize: vertical;
+  }
+
+
+
+  #contactForm button {
+    border: none;
+    border-radius: 25px;
+    padding: 18px 0;
+    cursor: pointer;
+    width: 50%;
+    font-size: 14px;
+    color: #4D16BE;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    background: #E8E8E8;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+    box-shadow: -10px -10px 20px #FFFFFF, 10px 10px 20px rgba(77, 77, 77, 0.3), inset 5px 5px 20px rgba(0, 0, 0, 0.09), inset -5px -5px 20px #FFFFFF;
+    transition-property: background, box-shadow, border;
+    transition-duration: 0.2s;
+  }
+
+  #contactForm button:hover {
+    background: #FFFFFF;
+  }
+
+  #contactForm button:active {
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 20px #FFFFFF, -10px -10px 20px rgba(77, 77, 77, 0.3), inset 5px 5px 20px rgba(0, 0, 0, 0.09), inset -5px -5px 20px #FFFFFF;
+  }
+
+</style>
+
+<div class="main" id="contact">
+  <h1> Contact Us</h1>
+  <hr style="width: 100px; height: 3px; background-color: black;">
+
+  <div class="payment">
+    <section class="section2">
+      <h3>Contact Details</h3>
+      <div class="description_s2_container">
+        <p class="description_s2">
+          600036, Indian Institue of Technology Madras, Chennai, Tamil Nadu
+        </p>
+        <table>
+          <tr>
+            <td>
+              Phone no:<br>966-5974-439
+            </td>
+            <td>
+              Phone no:<br>630-6243-040
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Mail:<br>arajkhandelwal@gmail.com
+            </td>
+            <td>
+              Mail:<br>sanjeetkotarya@gmail.com
+            </td>
+          </tr>
+        </table>
+      </div>
+
+    </section>
+    <section class="section1">
+      <h3>Let's get in touch</h3>
+      <form id="contactForm" action="mailto:arajkhandelwal@gmail.com" method="post" enctype="text/plain">
+        <input type="text" id="name" placeholder="Name" name="name" required><br>
+        <input type="email" id="email" placeholder="Email" name="email" required><br>
+        <textarea id="message" name="message" placeholder="Write message here.." required></textarea><br>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </div>
+</div>

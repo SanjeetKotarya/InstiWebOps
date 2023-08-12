@@ -1,0 +1,202 @@
+<style>
+.test {
+  background-color: black;
+  color: #fff;
+  height: fit-content;
+  overflow: hidden;
+  padding-top: 30px;
+}
+
+.title {
+  font-family: Josefin Sans;
+}
+
+
+.projects{
+  overflow-x: scroll;
+  width: 100%;
+}
+.projects::-webkit-scrollbar {
+    display: none;
+  }
+.projects table{
+  margin-left:50px;
+  overflow: hidden;
+  height: 380px;
+  padding: 0;
+  margin-bottom:80px;
+  border-collapse: collapse;
+}
+
+.projects table tr td{
+  padding: 25px;
+  min-width: 350px;
+  overflow: hidden;
+  border: solid #202020 1px;
+  position: relative;
+}
+
+.projects a, h1,h2,h3,h6,p{
+  z-index: 5;
+  position: relative;
+  font-family: Poppins;
+
+}
+.projects h6{
+  color: #393838;
+}
+.projects a{
+  text-align: left;
+  position: absolute;
+  width: 88%;
+  margin: 0 auto;
+  padding: 11px 11px;
+  bottom: 20px;
+  text-decoration: none;
+  border:solid #202020 2px;
+  color: white;
+  transition: 0.4s ease-out;
+  cursor: pointer;
+}
+
+.projects td a{
+  background:black ;
+}
+.projects tr td .bulb{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 100%;
+  top:-90px;
+  left: -90px;
+  transition: 0.4s ease-out;
+}
+.projects td:hover .bulb{
+  width: 150%;
+  height: 150%;
+}
+.projects h1{
+  font-size: 25px;
+  top: 0;
+  position: absolute;
+  font-family: Josefin Sans;
+}
+.projects p{
+  font-size: 18px;
+}
+
+
+.projects td:hover a {
+  color: #F9B234;
+}
+
+
+td .imgbox{
+  width: 100%;
+  overflow: hidden;
+  height: 180px;
+  display: block;
+  margin-top: 70px;
+  position: relative;
+  z-index: 5;
+}
+td img{
+  width: 100%;
+}
+
+
+.title h1{
+  font-size: 40px;
+  text-align: center;
+}
+.title p{
+  font-size: 18px;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+  .title h1{
+  font-size: 28px;
+  text-align: center;
+}
+.title p{
+  font-size: 14px;
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+}
+
+  .projects table{
+    height: 300px;
+    margin-left: 10px;
+  }
+  .projects table tr td{
+  padding: 12.5px;
+  min-width: 250px;
+}
+
+.projects table tr td h1{
+  font-size: 18px;
+}
+
+.projects tr td .bulb{
+  top: -60px;
+  left: -60px;
+
+}
+}
+</style>
+<div class="test" id="projects">
+<section>
+  <div class="title">
+    <h1 style="font-family: Josefin Sans;">Our Projects</h1>
+    <hr style="width: 100px; height: 2px; background-color: white;">
+
+    <p>Each project reflects our commitment to excellence, technical prowess, and a deep understanding of the digital landscape. 
+    </p>
+    <br>
+    <br>
+  </div>
+<div class="projects">
+  <table>
+    <tr>
+      <td>
+        <h1>.01<br><br>Freshers Website</h1>
+        <div class="imgbox"><img src="/p1.png"></div>
+        <a href="">Visit Website</a>
+        <span class="bulb" style="background:#952aff;"></span>
+      </td>
+      <td>
+        <h1>.02<br><br>Webops Website</h1>
+        <div class="imgbox"><img src="/p2.png"></div>
+        <a href="">Visit Website</a>
+        <span class="bulb" style="background:#3ecd5e;"></span>
+      </td>
+      <td>
+        <h1>.03<br><br>SLC Website</h1>
+        <div class="imgbox"><img src="/p1.png"></div>
+        <a href="">Visit Website</a>
+        <span class="bulb" style="background:#de3098;"></span>
+      </td>
+      <td>
+        <h1>.04<br><br>Coming Soon</h1>
+        <div class="imgbox"><img src="/p1.png"></div>
+        <a href="">Visit Website</a>
+        <span class="bulb" style="background:#4c49ea;"></span>
+      </td>
+      <td>
+        <h1>.05<br><br>Coming Soon</h1>
+        <div class="imgbox"><img src="/p1.png"></div>
+        <a href="">Visit Website</a>
+        <span class="bulb" style="background:#3ecd5e;"></span>
+      </td>
+ 
+    </tr>
+  </table>
+</div>
+
+</section>
+
+</div>

@@ -1,0 +1,219 @@
+
+
+<style>
+  .about-section {
+    position: relative;
+    padding: 20px 0px;
+  }
+
+  .about-section .content-column {
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .about-section .content-column .inner-column {
+    position: relative;
+    padding-top:50px;
+    padding-right: 100px;
+  }
+
+  .about-section .content-column .text {
+    position: relative;
+    color: black;
+    font-size: 16px;
+    line-height: 2em;
+    font-family: Poppins;
+    margin-bottom: 40px;
+    
+  }
+
+  .about-section .image-column {
+    position: relative;
+  }
+
+  .about-section .image-column .inner-column .image {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+
+  .about-section .image-column .inner-column .image img {
+    position: relative;
+    width: 100%;
+    display: block;
+  }
+
+  .about-section .image-column .inner-column .image .overlay-box {
+    position: absolute;
+    left: 40px;
+    bottom: 48px;
+  }
+
+  .about-section .image-column .inner-column .image .overlay-box .year-box {
+    position: relative;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.4em;
+    font-family: Josefin Sans;
+    padding-left: 125px;
+  }
+
+  .about-section .image-column .inner-column .image .overlay-box .year-box .number {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 110px;
+    height: 110px;
+    color: black;
+    font-size: 68px;
+    font-weight: 700;
+    line-height: 105px;
+    border: solid #4D16BE 1px;
+    text-align: center;
+  
+  }
+
+  .about-section .btn-style-three:hover {
+    color: #ffffff;
+    background: black;
+    border-color: transparent;
+  }
+
+  .about-section .btn-style-three {
+    position: relative;
+    line-height: 24px;
+    color: #252525;
+    font-size: 15px;
+    font-weight: 700;
+    background: none;
+    display: inline-block;
+    padding: 11px 40px;
+    background-color: #ffffff;
+    text-transform: capitalize;
+    border: 2px solid #4D16BE;
+    font-family: 'Arimo', sans-serif;
+  }
+
+  .sec-title2 {
+    color: #fff;
+  }
+
+  .sec-title {
+    position: relative;
+    padding-bottom: 40px;
+  }
+
+  .sec-title .title {
+    position: relative;
+    color: #4D16BE;
+    font-size: 18px;
+    font-weight: 700;
+    padding-right: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+    text-transform: capitalize;
+  }
+
+  .sec-title .title:before {
+    position: absolute;
+    content: '';
+    right: 0px;
+    bottom: 7px;
+    width: 40px;
+    height: 1px;
+    background-color: #bbbbbb;
+  }
+
+  .row {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .content-column {
+    width: 50%;
+  }
+
+  .image-column {
+    width: 50%;
+  }
+  
+@media (max-width: 768px) {
+
+
+  .about-section .content-column {
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .about-section .content-column .inner-column {
+    padding-right: 0;
+  }
+
+  .about-section .content-column .text {
+
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .content-column {
+    width: 100%;
+  }
+
+  .image-column {
+    width: 100%;
+  }
+
+  .row {
+    display: block;
+    width: 90%;
+  }
+
+  .content-column {
+    width: 100%;
+  }
+
+  .image-column {
+    width: 100%;
+  }
+  
+}
+
+</style>
+
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="row">
+
+      <!--Content Column-->
+      <div class="content-column">
+        <div class="inner-column">
+          <div class="sec-title">
+            <div class="title">About Us</div>
+            <h2>Uniting Excellence in Web Operations</h2>
+          </div>
+          <div class="text">Institute Web Operations Club, the vibrant hub where technology 
+            enthusiasts come together to explore, learn, and innovate in the ever-evolving world 
+            of web operations. We are a passionate community of students at IIT Madras 
+            who share a common fascination for the intricate workings behind seamless online experiences.</div>
+          <a href="/application.html" class="theme-btn btn-style-three">Join Us</a>
+        </div>
+      </div>
+
+      <!--Image Column-->
+      <div class="image-column">
+        <div class="inner-column " data-wow-delay="0ms" data-wow-duration="1500ms">
+          <div class="image">
+            <img src="/todo.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
