@@ -53,7 +53,7 @@
   padding: 11px 11px;
   bottom: 20px;
   text-decoration: none;
-  border:solid #202020 1px;
+  border:solid #202020 2px;
   color: white;
   transition: 0.4s ease-out;
   cursor: pointer;
@@ -147,6 +147,24 @@ td img{
 
 }
 }
+
+
+  /* Style for the right arrow icon */
+  .arrow-icon {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    transition: right 0.4s;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  /* Hover effect for the arrow icon */
+  .projects a:hover .arrow-icon {
+    right: 20px; /* Move the arrow slightly to the right on hover */
+  }
+
+
 </style>
 <div class="test" id="projects">
 <section>
@@ -165,31 +183,31 @@ td img{
       <td>
         <h1>.01<br><br>Freshers Website</h1>
         <div class="imgbox"><img src="p1.png"></div>
-        <a href="https://freshers-iitm.in/">Visit Website</a>
+        <a href="https://freshers-iitm.in/">Visit Website<span class="arrow-icon">&rarr;</span></a>
         <span class="bulb" style="background:#952aff;"></span>
       </td>
       <td>
         <h1>.02<br><br>Webops Website</h1>
         <div class="imgbox"><img src="p2.png"></div>
-        <a href="https://webopsiitm.in/">Visit Website</a>
+        <a href="https://webopsiitm.in/">Visit Website<span class="arrow-icon">&rarr;</span></a>
         <span class="bulb" style="background:#3ecd5e;"></span>
       </td>
       <td>
         <h1>.03<br><br>SLC Website</h1>
         <div class="imgbox"><img src="p1.png"></div>
-        <a href="">Visit Website</a>
+        <a href="">Visit Website<span class="arrow-icon">&rarr;</span></a>
         <span class="bulb" style="background:#de3098;"></span>
       </td>
       <td>
         <h1>.04<br><br>Coming Soon</h1>
         <div class="imgbox"><img src="p1.png"></div>
-        <a href="">Visit Website</a>
+        <a href="">Visit Website<span class="arrow-icon">&rarr;</span></a>
         <span class="bulb" style="background:#4c49ea;"></span>
       </td>
       <td>
         <h1>.05<br><br>Coming Soon</h1>
         <div class="imgbox"><img src="p1.png"></div>
-        <a href="">Visit Website</a>
+        <a href="">Visit Website<span class="arrow-icon">&rarr;</span></a>
         <span class="bulb" style="background:#3ecd5e;"></span>
       </td>
  
