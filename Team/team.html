@@ -5,7 +5,6 @@
   }
 </style>
 <style>
-
   figure.snap {
     color: #fff;
     position: relative;
@@ -20,11 +19,12 @@
     perspective: 50em;
     text-align: center;
     transition: .5s ease-in-out;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   }
+
   figure.snap:hover {
-color: white;
-background-color: black;
+    color: white;
+    background-color: black;
   }
 
   figure.snap * {
@@ -40,8 +40,8 @@ background-color: black;
     width: auto;
     margin: 0 auto;
     border-radius: 100%;
+    margin-top: 10px;
     width: 70%;
-    margin-top:10px
     height: auto;
     -webkit-transform-origin: 50% 100%;
     -ms-transform-origin: 50% 100%;
@@ -54,9 +54,9 @@ background-color: black;
     overflow-y: scroll;
     left: 0;
     background: #333;
-background: linear-gradient(60deg, #29323c 0%, #485563 100%);
-height: 78%;
-color: white;
+    background: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    height: 78%;
+    color: white;
     width: 100%;
     -webkit-transform: rotateX(-90deg);
     transform: rotateX(-90deg);
@@ -65,11 +65,13 @@ color: white;
     transform-origin: 50% -50%;
     z-index: 1;
     opacity: 0;
-    padding: 20px;
+    padding:10px 5px;
   }
+
   figure.snap figcaption::-webkit-scrollbar {
     display: none;
   }
+
   figure.snap h3,
   figure.snap p {
     text-align: center;
@@ -88,12 +90,11 @@ color: white;
     margin: 0 0 15px;
   }
 
-
   figure.snap a {
     color: white;
   }
 
-  figure.snap a:hover{
+  figure.snap a:hover {
     text-decoration: underline;
   }
 
@@ -136,28 +137,33 @@ color: white;
     width: 80%;
     margin: 0 auto;
   }
-  .team-title h1{
+
+  .team-title h1 {
     font-size: 40px;
     font-family: Josefin Sans;
   }
-  .team-title p{
+
+  .team-title p {
     font-size: 18px;
   }
-  figure.snap figcaption p{
+
+  figure.snap figcaption p {
     font-size: 14px;
   }
 
   @media screen and (max-width: 700px) {
-  figure.snap img {
-    width: 95%;
-  }
-    figure.snap figcaption p{
-    font-size: 12px;
-  }
+
+    figure.snap img {
+      width: 90%;
+    }
+
+    figure.snap figcaption p {
+      font-size: 12px;
+    }
 
     figure.snap h3 {
       font-size: 15px;
-  }
+    }
 
     .team {
       grid-template-columns: repeat(2, 1fr);
@@ -168,28 +174,29 @@ color: white;
     .team-title {
       width: 95%;
     }
-    .team-title h1{
-    font-size: 30px;
+
+    .team-title h1 {
+      font-size: 30px;
+    }
+
+    .team-title p {
+      font-size: 14px;
+    }
   }
-  .team-title p{
-    font-size: 14px;
-  }
-  }
-  .imgb{
+
+  .imgb {
     height: 70%;
   }
 
- 
-  .core{
+  .core {
     grid-template-columns: repeat(2, 1fr);
     width: 30%;
   }
-  .supercoord{
+
+  .supercoord {
     grid-template-columns: repeat(3, 1fr);
     width: 50%;
   }
-
-
 
 
   .team i {
@@ -246,8 +253,13 @@ transition: .2s;
       <p style="text-align: center;">Core</p>
 
       <figcaption>
-        <p><b>Roll no</b> : CS20B008</p>
-        <p><b>Phone no.</b> : 9665974439 </p>
+        <p><b style="color: black;">Roll no</b> : CS20B008</p>
+        <p><b style="color: black;">Phone no</b> : 9665974439 </p>
+        <p><b style="color: black;"><u>Projects guided</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a> 
+          <a href="https://webopsiitm.in/">Webops Website</a>, 
+          <a href="https://amansingh88688.github.io/slc-site/">SLC Website</a>           
+        </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
     </figure>
@@ -256,15 +268,19 @@ transition: .2s;
       <h3>Shishir Chaurasiya</h3>
       <p style="text-align: center;">Core</p>
       <figcaption>
-        <p><b>Roll no</b> : CH21B098</p>
-        <p><b>Phone no.</b> : 6306243040</p>
-
+        <p><b style="color: black;">Roll no</b> : CH21B098</p>
+        <p><b style="color: black;">Phone no</b> : 6306243040</p>
+        <p><b style="color: black;"><u>Projects guided</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a> 
+          <a href="https://webopsiitm.in/">Webops Website</a>, 
+          <a href="https://amansingh88688.github.io/slc-site/">SLC Website</a>           
+        </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
     </figure>
   </div>
 
-  <hr style="width: 20%; margin: 30px auto; height: 1px; background: black; border: none;">
+  <hr style="width: 20%; margin: 20px auto; height: 1px; background: black; border: none;">
 
   <div class="team supercoord">
     <figure class="snap">
@@ -272,12 +288,13 @@ transition: .2s;
       <h3>Sanjeet Kotarya</h3>
       <p style="text-align: center;">Super Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : ED21B055</p>
-        <p><b>Phone no.</b> : 7651988533</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a>
+        <p><b style="color: black;">Roll no</b> : ED21B055</p>
+        <p><b style="color: black;">Phone no</b> : 7651988533</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a>
+         <a href="https://webopsiitm.in/">Webops Website</a>
         </p>
-      <a href="https://www.linkedin.com/in/sanjeet-kotarya-03a452197/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
     </figure>
     <figure class="snap">
@@ -285,11 +302,11 @@ transition: .2s;
       <h3>Ayush Singh</h3>
       <p style="text-align: center;">Super Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : MM21B014</p>
-        <p><b>Phone no.</b> : 9667092340</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a><br>
-          <b>2.</b> <a href="https://amansingh88688.github.io/slc-site/">SLC Website</a>
+        <p><b style="color: black;">Roll no</b> : MM21B014</p>
+        <p><b style="color: black;">Phone no</b> : 9667092340</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a>
+         <a href="https://amansingh88688.github.io/slc-site/">SLC Website</a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
@@ -300,71 +317,72 @@ transition: .2s;
       <h3>Aman Singh</h3>
       <p style="text-align: center;">Super Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : CH21B011</p>
-        <p><b>Phone no.</b> : 8868857492</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://amansingh88688.github.io/slc-site/">SLC Website</a>
+        <p><b style="color: black;">Roll no</b> : CH21B011</p>
+        <p><b style="color: black;">Phone no</b> : 8868857492</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://amansingh88688.github.io/slc-site/">SLC Website</a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
     </figure>
   </div>
 
-  <hr style="width: 20%; margin: 30px auto; height: 1px; background: black; border: none;">
+  <hr style="width: 20%; margin: 20px auto; height: 1px; background: black; border: none;">
 
   <div class="team">
+
     <figure class="snap">
       <div class="imgb"><img src="pics/ankit.jpg" alt="Error Loading image" /></div>
       <h3>Ankit Raj</h3>
       <p style="text-align: center;">Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : MM21B008</p>
-        <p><b>Phone no.</b> : 8002860787</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a><br> <b>2.</b> <a
+        <p><b style="color: black;">Roll no</b> : MM21B008</p>
+        <p><b style="color: black;">Phone no</b> : 8002860787</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a> <a
             href="https://amansingh88688.github.io/slc-site/">SLC Website</a>
-        </p>
-      <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-      </figcaption>
-    </figure>
-    <figure class="snap">
-      <div class="imgb"><img src="pics/anmol.jpg" alt="Error Loading image" /></div>
-      <h3>Anmol Upadhyay</h3>
-      <p style="text-align: center;">Coordinator</p>
-      <figcaption>
-        <p><b>Roll no</b> : CH22B053</p>
-        <p><b>Phone no.</b> : 8384806663</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a><br>
-          <b>2.</b> <a href="https://webopsiitm.in/">Webops Website</a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
     </figure>
 
     <figure class="snap">
-      <div class="imgb"><img src="pics/default.jpg" alt="Error Loading image" /></div>
-      <h3>Bikash Kumar</h3>
+      <div class="imgb"><img src="pics/anmol.jpg" alt="Error Loading image" /></div>
+      <h3>Anmol Upadhyay</h3>
       <p style="text-align: center;">Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : CH22B058</p>
-        <p><b>Phone no.</b> : 8984775238</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a><br>
+        <p><b style="color: black;">Roll no</b> : CH22B053</p>
+        <p><b style="color: black;">Phone no</b> : 8384806663</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
     </figure>
-    
+
+    <figure class="snap">
+      <div class="imgb"><img src="pics/bikash.jpg" alt="Error Loading image" /></div>
+      <h3>Bikash Kumar</h3>
+      <p style="text-align: center;">Coordinator</p>
+      <figcaption>
+        <p><b style="color: black;">Roll no</b> : CH22B058</p>
+        <p><b style="color: black;">Phone no</b> : 8984775238</p>
+        <p style="color: black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a>
+        </p>
+      <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </figcaption>
+    </figure>
+
     <figure class="snap">
       <div class="imgb"><img src="pics/devesh.jpg" alt="Error Loading image" /></div>
       <h3>Devesh Negi</h3>
       <p style="text-align: center;">Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : CH22B063</p>
-        <p><b>Phone no.</b> : 7351531971</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a><br> <b>2.</b> <a
+        <p><b style="color: black;">Roll no</b> : CH22B063</p>
+        <p><b style="color: black;">Phone no</b> : 7351531971</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a> <a
             href="https://amansingh88688.github.io/slc-site/">SLC Website</a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -375,10 +393,10 @@ transition: .2s;
       <h3>Jaydeep Raut</h3>
       <p style="text-align: center;">Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : MM21B032</p>
-        <p><b>Phone no.</b> : 7447228231</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a><br> <b>2.</b> <a
+        <p><b style="color: black;">Roll no</b> : MM21B032</p>
+        <p><b style="color: black;">Phone no</b> : 7447228231</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a> <a
             href="https://amansingh88688.github.io/slc-site/">SLC Website</a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -389,10 +407,10 @@ transition: .2s;
       <h3>Lakshita Sharma</h3>
       <p style="text-align: center;">Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : CH22B077</p>
-        <p><b>Phone no.</b> : 8824277070</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a><br> <b>2.</b> <a
+        <p><b style="color: black;">Roll no</b> : CH22B077</p>
+        <p><b style="color: black;">Phone no</b> : 8824277070</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a> <a
             href="https://amansingh88688.github.io/slc-site/">SLC Website</a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -403,10 +421,10 @@ transition: .2s;
       <h3>Rudra Pratap</h3>
       <p style="text-align: center;">Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : EE22B171</p>
-        <p><b>Phone no.</b> : 8072792070</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a>
+        <p><b style="color: black;">Roll no</b> : EE22B171</p>
+        <p><b style="color: black;">Phone no</b> : 8072792070</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website</a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
@@ -416,10 +434,10 @@ transition: .2s;
       <h3>Sanidhya Mahale</h3>
       <p style="text-align: center;">Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : ME22B189</p>
-        <p><b>Phone no.</b> : 7738601257</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a><br> <b>2.</b> <a
+        <p><b style="color: black;">Roll no</b> : ME22B189</p>
+        <p><b style="color: black;">Phone no</b> : 7738601257</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a> <a
             href="https://amansingh88688.github.io/slc-site/">SLC Website</a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
@@ -430,11 +448,11 @@ transition: .2s;
       <h3>Siddarth Baruah</h3>
       <p style="text-align: center;">Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : EE21B128</p>
-        <p><b>Phone no.</b> : 8822054816</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a><br> <b>2.</b> <a
-            href="https://amansingh88688.github.io/slc-site/">SLC Website</a>
+        <p><b style="color: black;">Roll no</b> : EE21B128</p>
+        <p><b style="color: black;">Phone no</b> : 8822054816</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website, </a> 
+         <a href="https://amansingh88688.github.io/slc-site/">SLC Website</a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
@@ -444,11 +462,10 @@ transition: .2s;
       <h3>Vaishnavi Sinha</h3>
       <p style="text-align: center;">Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : MM22B065</p>
-        <p><b>Phone no.</b> : 8789772988</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a><br> <b>2.</b> <a
-            href="https://freshers-iitm.in/">Webops Website</a>
+        <p><b style="color: black;">Roll no</b> : MM22B065</p>
+        <p><b style="color: black;">Phone no</b> : 8789772988</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website</a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
@@ -458,10 +475,10 @@ transition: .2s;
       <h3>Vishal Jakhar</h3>
       <p style="text-align: center;">Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : CH22B115</p>
-        <p><b>Phone no.</b> : 9664148448</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a>
+        <p><b style="color: black;">Roll no</b> : CH22B115</p>
+        <p><b style="color: black;">Phone no</b> : 9664148448</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website</a>
         </p>
       <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
@@ -471,12 +488,12 @@ transition: .2s;
       <h3>Vishal K.R</h3>
       <p style="text-align: center;">Coordinator</p>
       <figcaption>
-        <p><b>Roll no</b> : ED22B039</p>
-        <p><b>Phone no.</b> : 73785 96845</p>
-        <p style="color: #4D16BE"><b>Projects worked on:</b><br>
-          <b>1.</b> <a href="https://freshers-iitm.in/">Freshers Website</a>
+        <p><b style="color: black;">Roll no</b> : ED22B039</p>
+        <p><b style="color: black;">Phone no</b> : 73785 96845</p>
+        <p style="color:black"><b><u>Projects worked on</u></b><br>
+          <a href="https://freshers-iitm.in/">Freshers Website</a>
         </p>
-      <a href="https://www.linkedin.com/in/vishal-k-r-302622245"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
       </figcaption>
     </figure>
 
@@ -488,8 +505,6 @@ transition: .2s;
 
 
 </div>
-
-
 <script>
   /* Demo purposes only */
   $(".hover").mouseleave(
