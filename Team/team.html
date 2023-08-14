@@ -41,6 +41,7 @@ background-color: black;
     margin: 0 auto;
     border-radius: 100%;
     width: 70%;
+    margin-top:10px
     height: auto;
     -webkit-transform-origin: 50% 100%;
     -ms-transform-origin: 50% 100%;
@@ -190,16 +191,8 @@ color: white;
 
 
 
-  @media screen and (max-width: 700px) {
-    .core{
-    width: 99%;
-  }
-  .supercoord{
-    grid-template-columns: repeat(2, 1fr);
-    width: 99%;
-  }
-  } 
-    .team i {
+
+  .team i {
     color: white;
     font-size: 18px;
     text-align: center;
@@ -212,10 +205,27 @@ color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
     background-color: black;
 transition: .2s;
-
   }
+
   .team i:hover {
+    color: #4D16BE;
     box-shadow: 0 2px 3px rgba(0, 0, 0, .5);
+  }
+
+
+  @media screen and (max-width: 700px) {
+    .core {
+      width: 99%;
+    }
+
+    .supercoord {
+      grid-template-columns: repeat(2, 1fr);
+      width: 99%;
+    }
+
+    .team i {
+    left: 33%;
+  }
   }
 
 </style>
@@ -243,7 +253,7 @@ transition: .2s;
     </figure>
     <figure class="snap">
       <div class="imgb"><img src="pics/shishir.jpg" alt="Error Loading image" /></div>
-      <h3>Sishir Chaurasiya</h3>
+      <h3>Shishir Chaurasiya</h3>
       <p style="text-align: center;">Core</p>
       <figcaption>
         <p><b>Roll no</b> : CH21B098</p>
