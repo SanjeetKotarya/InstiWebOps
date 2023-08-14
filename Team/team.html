@@ -20,8 +20,7 @@
     perspective: 50em;
     text-align: center;
     transition: .5s ease-in-out;
-
-
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   }
   figure.snap:hover {
 color: white;
@@ -53,7 +52,8 @@ background-color: black;
     top: 0;
     overflow-y: scroll;
     left: 0;
-    background-color: #0E161B;
+    background: #333;
+    background-image: linear-gradient(to bottom right, #FDABDD, #374A5A); 
 height: 78%;
 color: white;
     width: 100%;
@@ -87,11 +87,13 @@ color: white;
     margin: 0 0 15px;
   }
 
+
   figure.snap a {
-    color: grey;
+    color: white;
   }
-  figure.snap a:hover {
-    color: rgb(255, 255, 255);
+
+  figure.snap a:hover{
+    text-decoration: underline;
   }
 
   figure.snap .read-more:hover {
